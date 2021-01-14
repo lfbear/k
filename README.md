@@ -35,3 +35,4 @@ todo
 ### switch the clusters naming `xxx`
 `# k xxx`
 
+![usage screenshot](https://github.com/lfbear/k/blob/main/cmd.jpg?raw=true)
