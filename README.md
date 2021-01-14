@@ -7,21 +7,8 @@ The tool depends `kubectl`, assume that you can already use `kebectl`
 ## Install
 
 ### Way 1:
-#### step 1. get code to your local
 
-`git clone https://github.com/lfbear/k`
-
-#### step 2. copy shell script
-
-`cp k/k.sh ~/.kube/k.sh`
-
-#### step 3. add script to your bash startup files(choose one of the following)
-
-- **[linux bash]** `echo ". ~/.kube/k.sh" >> ~/.bashrc && source ~/.bashrc` 
-
-- **[Darwin native bash]** `echo ". ~/.kube/k.sh" >> ~/.bash_profile && source ~/.bash_profile` 
-
-- **[zsh for linux or Darwin]** `echo ". ~/.kube/k.sh" >> ~/.zshrc && source ~/.zshrc` 
+`curl https://raw.githubusercontent.com/lfbear/k/main/install.sh | bash`
 
 ### Way 2
 
