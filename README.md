@@ -15,17 +15,20 @@ The tool depends `kubectl`, assume that you can already use `kebectl`
 
 `cp k/k.sh ~/.kube/k.sh`
 
-#### step 3. add script to your base start(choose one of the following)
+#### step 3. add script to your bash startup files(choose one of the following)
 
-**[linux bash]** `echo ". ~/.kube/k.sh" >> ~/.bashrc && source ~/.bashrc` 
+- **[linux bash]** `echo ". ~/.kube/k.sh" >> ~/.bashrc && source ~/.bashrc` 
 
-**[Darwin native bash]** `echo ". ~/.kube/k.sh" >> ~/.bash_profile && source ~/.bash_profile` 
+- **[Darwin native bash]** `echo ". ~/.kube/k.sh" >> ~/.bash_profile && source ~/.bash_profile` 
 
-**[zsh for linux or Darwin]** `echo ". ~/.kube/k.sh" >> ~/.zshrc && source ~/.zshrc` 
+- **[zsh for linux or Darwin]** `echo ". ~/.kube/k.sh" >> ~/.zshrc && source ~/.zshrc` 
 
 ### Way 2
 
-todo
+Copy contents of `k.sh` to the bottom of your bash startup files, this file locate at one of the following file
+- **[linux bash]** `~/.bashrc` 
+- **[Darwin native bash]** `~/.bash_profile` 
+- **[zsh for linux or Darwin]** `~/.zshrc`
 
 ## Usage
 
@@ -40,3 +43,10 @@ then, u can use `kubectl` to do anything you want
 ### screenshot
 
 ![usage screenshot](https://github.com/lfbear/k/blob/main/cmd.jpg?raw=true)
+
+## Extension
+
+### How to use contenxts in kube config file
+
+https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/
+
