@@ -32,7 +32,7 @@ todo
 ### show all available k8s clusters
 `# k`
 
-### switch the clusters naming `xxx`
-`# k xxx`
+### switch the clusters naming `dev`
+`# k dev`
 
 ![usage screenshot](https://github.com/lfbear/k/blob/main/cmd.jpg?raw=true)
