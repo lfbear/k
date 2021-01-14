@@ -17,11 +17,11 @@ The tool depends `kubectl`, assume that you can already use `kebectl`
 
 #### step 3. add script to your base start(choose one of the following)
 
-`echo ". ~/.kube/k.sh" >> ~/.bashrc && source ~/.bashrc` #linux bash
+**[linux bash]** `echo ". ~/.kube/k.sh" >> ~/.bashrc && source ~/.bashrc` 
 
-`echo ". ~/.kube/k.sh" >> ~/.bash_profile && source ~/.bash_profile` #Darwin native bash
+**[Darwin native bash]** `echo ". ~/.kube/k.sh" >> ~/.bash_profile && source ~/.bash_profile` 
 
-`echo ". ~/.kube/k.sh" >> ~/.zshrc && source ~/.zshrc` #zsh for linux or Darwin
+**[zsh for linux or Darwin]** `echo ". ~/.kube/k.sh" >> ~/.zshrc && source ~/.zshrc` 
 
 ### Way 2
 
