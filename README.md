@@ -12,10 +12,21 @@ The tool depends `kubectl`, assume that you can already use `kebectl`
 
 ### Way 2
 
-Copy contents of `k.sh` to the bottom of your bash startup files, this file locate at one of the following file
+#### step 1. get code to your local	
+
+`git clone https://github.com/lfbear/k`
+
+#### step 2. copy shell script	
+
+`cd k && sh install.sh`	
+
+### Q&A: [Please copy the following content and add the bottom of  your starup script]
+
+Add `source ~/.kube/k.sh` to the bottom of your bash startup files, this file locate at one of the following file
 - **[linux bash]** `~/.bashrc` 
 - **[Darwin native bash]** `~/.bash_profile` 
 - **[zsh for linux or Darwin]** `~/.zshrc`
+- ...
 
 ## Usage
 
