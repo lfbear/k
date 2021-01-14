@@ -34,5 +34,6 @@ todo
 
 ### switch the clusters naming `dev`
 `# k dev`
+then, u can use `kubectl` to do anything you want
 
 ![usage screenshot](https://github.com/lfbear/k/blob/main/cmd.jpg?raw=true)
