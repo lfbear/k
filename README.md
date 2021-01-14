@@ -1,5 +1,5 @@
 # k
-a shell tool for kubectl contexts switch quickly, alias for `kebectl config use-context`
+A shell tool for kubectl contexts switch quickly, alias for `kebectl config use-context`
 
 ## Prepare
 The tool depends `kubectl`, assume that you can already use `kebectl`
@@ -34,6 +34,9 @@ todo
 
 ### switch the clusters naming `dev`
 `# k dev`
+
 then, u can use `kubectl` to do anything you want
+
+### screenshot
 
 ![usage screenshot](https://github.com/lfbear/k/blob/main/cmd.jpg?raw=true)
