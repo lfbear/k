@@ -1,8 +1,8 @@
 # k
-a shell tool for switch kubectl contexts quickly, alias for `kebectl config use-context`
+a shell tool for kubectl contexts switch quickly, alias for `kebectl config use-context`
 
 ## Prepare
-Fisrt, the tool depends `kubectl`, assume that you have ready for using `kebectl`
+The tool depends `kubectl`, assume that you can already use `kebectl`
 
 ## Install
 
