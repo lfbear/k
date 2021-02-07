@@ -20,7 +20,7 @@ The tool depends `kubectl`, assume that you can already use `kebectl`
 
 `cd k && sh install.sh`	
 
-### Q&A: [Please copy the following content and add the bottom of  your starup script]
+### Create a Quick Command
 
 Add `source ~/.kube/k.sh` to the bottom of your bash startup files, this file locate at one of the following file
 - **[linux bash]** `~/.bashrc` 
