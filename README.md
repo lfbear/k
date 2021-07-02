@@ -33,7 +33,7 @@ Add `source ~/.kube/k.sh` to the bottom of your bash startup files, this file lo
 ### show all available k8s clusters
 `# k`
 
-### switch the clusters naming `dev`
+### switch the clusters naming 'dev'
 `# k dev`
 
 then, u can use `kubectl` to do anything you want
@@ -41,6 +41,10 @@ then, u can use `kubectl` to do anything you want
 ### screenshot
 
 ![usage screenshot](https://github.com/lfbear/k/blob/main/cmd.jpg?raw=true)
+
+## Changelog
+
+- 2021.07.02 Add CurrentContext to the bash PS1 (issue #1)
 
 ## Extension
 
